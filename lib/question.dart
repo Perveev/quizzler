@@ -1,9 +1,8 @@
-class Question{
-  String questionText;
-  bool questionAnswer;
+import 'package:flutter/material.dart';
 
-  Question(String q,bool a){
-    questionAnswer = a;
-    questionText = q;
-  }
+class Question {
+  String text;
+  bool answer;
+
+  Question({this.text, this.answer});
 }
