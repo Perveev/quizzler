@@ -1,8 +1,5 @@
 import 'package:flutter/material.dart';
-<<<<<<< HEAD
 import 'package:quizzler/quiz_brain.dart';
-=======
->>>>>>> origin/master
 import 'package:rflutter_alert/rflutter_alert.dart';
 
 class QuizPage extends StatefulWidget {
@@ -13,11 +10,9 @@ class QuizPage extends StatefulWidget {
 class _QuizPageState extends State<QuizPage> {
   List<Icon> scoreList = [];
 
-<<<<<<< HEAD
+
   QuizBrain quizBrain = QuizBrain();
-=======
-  get quizBrain => null;
->>>>>>> origin/master
+
 
   void checkAnswer(bool userAnswer, BuildContext context) {
     bool correctAnswer = quizBrain.getQuestionAnswer();
