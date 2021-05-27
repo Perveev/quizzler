@@ -40,8 +40,8 @@ class QuizBrain{
 
   bool isFinished() => _questionNumber >= _questions.length - 1;
 
-  void nextQuestion(){
-    if(_questionNumber < _questions.length - 1){
+  void nextQuestion() {
+    if (_questionNumber < _questions.length - 1) {
       _questionNumber++;
     }
   }

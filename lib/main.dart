@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:quizzler/quiz_page.dart';
 import 'quiz_brain.dart';
+import 'package:rflutter_alert/rflutter_alert.dart';
+
+QuizBrain quizBrain = QuizBrain();
 
 void main() => runApp(Quizzler());
 
